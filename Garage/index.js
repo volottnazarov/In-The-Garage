@@ -1,0 +1,1 @@
+﻿const data = JSON.parse(dataJSON);
