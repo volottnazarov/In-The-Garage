@@ -3,10 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
     <title>Document</title>
 </head>
 <body>
+    <div class="container">
+        <div class="title">
+            <h1 class="color">In The Garage</h1>
+        </div>
+        <div class="selected">
+            <h3 class="color-2">Выберите варианты поиска:</h3>
+        </div>
+        <div class="container form">
+            <form>
+                <select class="mySelect">
+                    <option value="">Выбрать</option>
+                    <option value="gosNumber">По госномеру</option>
+                    <option value="invNumber">По инв. номеру</option>
+                    <option value="vinNumber">По VIN</option>
+                    <option value="garageNumber">По номеру гаража</option>
+                    <option value="servie">По службе</option>
+                </select>
+            </form>
+        </div>
+        <div class="input-button-container">
+            <input class="inputPlace" type="text" placeholder="Введите запрос..."/>
+            <button class="inputButton" type="submit">&#128269;</button>
+        </div>
+        <div class="result">
+            <ul class="backGr" id="resultList"></ul>
+        </div>
+        <footer>
+            <div class="admin">
+                <form>
+                    <input class="btnAdmin" type="button" value="Вход" onClick="Input()">
+                </form>
+            </div>
+        </footer>
+    </div>
     <script src="./data.js"></script>
     <script src="./index.js"></script>
+    <script src="./adm.js"></script>
 </body>
 </html>

@@ -1,1 +1,106 @@
-﻿
+﻿/* * {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+} */
+
+body {
+    scroll-behavior: smooth;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+.container {
+    max-width: 1146px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color:darkseagreen ;
+}
+
+.backGr {
+    background-color: ghostwhite;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    height: 80px;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 17px;
+    width: 220px;
+    height: 43px;
+}
+.color {
+    color: crimson;
+}
+.selected {
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    text-align: center;
+}
+h3 {
+    width: 280px;
+    height: 26px;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+select {
+    width: 140px;
+    height: 33px;
+    margin-top: 10px;
+}
+
+.input-button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 40px;
+    margin-bottom: 20px;
+}
+.inputPlace {
+    display: none;
+}
+.inputButton {
+    display: none;
+}
+.result {
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+ul {
+    width: 230px;
+    margin-bottom: 20px;
+    border: solid 2px black;
+    padding: 10px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+}
+.admin {
+    height: 40px;
+    width: 230px;
+    background-color: rgb(95, 93, 93);
+    border: solid rgb(202, 207, 124);
+    margin-bottom: 8px;
+}
+.btnAdmin {
+    margin-top: 9px;
+    background-color: darkgray;
+}
