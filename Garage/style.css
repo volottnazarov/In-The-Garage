@@ -30,6 +30,7 @@ img {
     display: flex;
     justify-content: center;
     height: 60px;
+    width: auto;
     text-align: center;
 }
 
@@ -118,4 +119,26 @@ footer{
 .btnAdmin {
     margin-top: 9px;
     background-color: darkgray;
+}
+
+@media (max-width: 767px){
+    .container {
+        max-width: 375px;
+    }
+    .title {
+        height: 85px;
+    }
+    h1 {
+        width: 180px;
+    }
+    p {
+        margin-top: 7px;
+    }
+    h3 {
+        width: 240px;
+        margin-top: 20px;
+    }
+    .selected {
+        height: 60px;
+    }
 }
