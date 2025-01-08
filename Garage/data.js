@@ -16,7 +16,7 @@
         invNumber: "0279",
         vinNumber: "XTA210940R1067770",
         release: 2024,
-        garageNumber: 2,
+        garageNumber: 21,
         service: "АП"
     },
     {
@@ -26,7 +26,7 @@
         invNumber: "35632",
         vinNumber: "XTA210910M0729056",
         release: 2020,
-        garageNumber: 3,
+        garageNumber: 0,
         service: "АП ГЗ"
     },
     {
@@ -36,7 +36,7 @@
         invNumber: "35594",
         vinNumber: "XTA210910L0676731",
         release: 2020,
-        garageNumber: 4,
+        garageNumber: 41,
         service: "АП ГЗ"
     },
     {
@@ -46,7 +46,7 @@
         invNumber: "35555",
         vinNumber: "XTA210910K0632524",
         release: 2019,
-        garageNumber: 5,
+        garageNumber: 33,
         service: "АП ГЗ"
     },
     {
@@ -56,7 +56,7 @@
         invNumber: "35554",
         vinNumber: "XTA219010K06322616",
         release: 2019,
-        garageNumber: 6,
+        garageNumber: 22,
         service: "АП ГЗ"
     },
     {
@@ -66,7 +66,7 @@
         invNumber: "35524",
         vinNumber: "XTA219010J0550285",
         release: 2018,
-        garageNumber: 6,
+        garageNumber: 28,
         service: "АП ГЗ"
     },
     {
@@ -76,7 +76,7 @@
         invNumber: "35218",
         vinNumber: "XTA219010G0405022",
         release: 2016,
-        garageNumber: 6,
+        garageNumber: 27,
         service: "АП ГЗ"
     },
     {
@@ -86,7 +86,7 @@
         invNumber: "35167",
         vinNumber: "XTA219060F0339919",
         release: 2015,
-        garageNumber: 6,
+        garageNumber: 0,
         service: "АП ГЗ"
     },
     {
@@ -96,7 +96,7 @@
         invNumber: "35180",
         vinNumber: "XTA219060F0342214",
         release: 2015,
-        garageNumber: 6,
+        garageNumber: 19,
         service: "АП ГЗ"
     },
     {
@@ -106,7 +106,7 @@
         invNumber: "0319",
         vinNumber: "XTA219040R1068273",
         release: 2024,
-        garageNumber: 6,
+        garageNumber: 25,
         service: "АП ГЗ"
     },
     {
@@ -116,7 +116,7 @@
         invNumber: "0356",
         vinNumber: "XTA219040R1067881",
         release: 2024,
-        garageNumber: 6,
+        garageNumber: 0,
         service: "АП ГЗ"
     },
     {
@@ -126,7 +126,7 @@
         invNumber: "0012",
         vinNumber: "XTA219040N0837219",
         release: 2022,
-        garageNumber: 6,
+        garageNumber: 32,
         service: "АП ГЗ"
     },
     {
@@ -136,7 +136,7 @@
         invNumber: "0086",
         vinNumber: "XTA219040R0996444",
         release: 2023,
-        garageNumber: 6,
+        garageNumber: 14,
         service: "АП ГЗ"
     },
     {
@@ -146,7 +146,7 @@
         invNumber: "0111",
         vinNumber: "XTA219040R0984126",
         release: 2023,
-        garageNumber: 6,
+        garageNumber: 39,
         service: "АП ГЗ"
     },{
         id: 16,
@@ -155,7 +155,7 @@
         invNumber: "0133",
         vinNumber: "XTA219040R0984008",
         release: 2023,
-        garageNumber: 6,
+        garageNumber: 35,
         service: "АП ГЗ"
     },
     {
@@ -165,7 +165,7 @@
         invNumber: "0144",
         vinNumber: "XTA219040R0983861",
         release: 2023,
-        garageNumber: 6,
+        garageNumber: 36,
         service: "АП ГЗ"
     },
     {
@@ -175,7 +175,7 @@
         invNumber: "0197",
         vinNumber: "XTA219040R0995961",
         release: 2023,
-        garageNumber: 6,
+        garageNumber: 37,
         service: "АП ГЗ"
     },
     {
@@ -185,7 +185,7 @@
         invNumber: "0226",
         vinNumber: "XTA219040R0984108",
         release: 2023,
-        garageNumber: 6,
+        garageNumber: 2723,
         service: "АП ГЗ"
     },
     {
@@ -195,7 +195,7 @@
         invNumber: "0233",
         vinNumber: "XTA219040R0983625",
         release: 2023,
-        garageNumber: 6,
+        garageNumber: 24,
         service: "АП ГЗ"
     },
     {
@@ -205,7 +205,7 @@
         invNumber: "0306",
         vinNumber: "XTA219040R1068140",
         release: 2024,
-        garageNumber: 6,
+        garageNumber: 16,
         service: "АП ГЗ"
     },
     {
@@ -215,7 +215,7 @@
         invNumber: "0313",
         vinNumber: "XTA219040R1068186",
         release: 2024,
-        garageNumber: 6,
+        garageNumber: 20,
         service: "АП ГЗ"
     },
     {
@@ -225,7 +225,7 @@
         invNumber: "0146",
         vinNumber: "XTA219040R0983789",
         release: 2023,
-        garageNumber: 6,
+        garageNumber: 38,
         service: "ГОСДНП"
     },
     {
@@ -235,7 +235,7 @@
         invNumber: "0287",
         vinNumber: "XTA219040R1068186",
         release: 2024,
-        garageNumber: 6,
+        garageNumber: 26,
         service: "ГОСДНП"
     },
     {
@@ -245,7 +245,7 @@
         invNumber: "34769",
         vinNumber: "X9FHXXEEDHAJ82907",
         release: 2010,
-        garageNumber: 6,
+        garageNumber: 17,
         service: "НО"
     },
     {
@@ -255,7 +255,7 @@
         invNumber: "0113",
         vinNumber: "XTA219040R0984123",
         release: 2023,
-        garageNumber: 6,
+        garageNumber: 34,
         service: "АП ГЗ"
     }
 ]

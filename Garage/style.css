@@ -19,7 +19,8 @@ img {
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    background-color:rgb(114, 146, 114) ;
+    /* background-color:rgb(114, 146, 114) ; */
+    background-image: url('./image/tekstura-texture-poverhnost-3416.webp');
 }
 
 .backGr {
@@ -95,6 +96,12 @@ select {
     display: none;
 }
 .result {
+    height: auto;
+    display: flex;
+    justify-content: center;
+    display: none;
+}
+.resultAfter {
     height: auto;
     display: flex;
     justify-content: center;

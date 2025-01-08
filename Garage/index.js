@@ -9,7 +9,7 @@ selectEl.addEventListener("change", () => {
             let inputButtonEl = document.querySelector('.inputButton');
             let param;
             let gosNumber = "gosNumber";
-            inputEl.placeholder = "6002 (пример)";
+            inputEl.placeholder = "Например: 5810";
             inputEl.style.display = 'block';
             inputButtonEl.style.display = 'block';
             inputButtonEl.onclick = function() {
@@ -26,7 +26,7 @@ selectEl.addEventListener("change", () => {
             let inputButtonInvEl = document.querySelector('.inputButton');
             let paramInv;
             let invNumber = "invNumber";
-            inputInvEl.placeholder = "000234 (пример)";
+            inputInvEl.placeholder = "Например: 00234";
             inputInvEl.style.display = 'block';
             inputButtonInvEl.style.display = 'block';
             inputButtonInvEl.onclick = function() {
@@ -60,15 +60,15 @@ selectEl.addEventListener("change", () => {
             let inputButtonGarageEl = document.querySelector('.inputButton');
             let paramGarage;
             let garageNumber = "garageNumber";
-            inputGarageEl.placeholder = "От 1 до 5";
+            inputGarageEl.placeholder = 'От 1 до 41 или "ангар"';
             inputGarageEl.style.display = 'block';
             inputButtonGarageEl.style.display = 'block';
             inputButtonGarageEl.onclick = function() {
                 paramGarage = inputGarageEl.value;
-                if(paramGarage <= 5 || paramGarage == "ангар"){
+                if(paramGarage <= 41 || paramGarage == "ангар"){
                     viewResult(paramGarage, garageNumber);
                 }else{
-                    alert("Всего 40 гаражей!")
+                    alert("Всего 41 гараж!")
                 }
             }
             break;
@@ -78,7 +78,8 @@ selectEl.addEventListener("change", () => {
 });
 
 function viewResult(params, category) {
-    const resultList = document.getElementById("resultList");
+    const resultList = document.getElementById('resultList');
+    const resultEl = document.querySelector('.result');
     resultList.innerHTML = "";
 
     garageData.forEach((auto) => {
@@ -87,6 +88,7 @@ function viewResult(params, category) {
             const modelItem = document.createElement('li');
             modelItem.textContent = `Модель: ${auto.model}`;
             const gosItem = document.createElement('li');
+            gosItem.style.color = 'red';
             gosItem.textContent = `Гос. номер: ${auto.gosNumber}`;
             const invItem = document.createElement('li');
             invItem.textContent = `Инв. номер: ${auto.invNumber}`;
@@ -95,11 +97,14 @@ function viewResult(params, category) {
             const releaseItem = document.createElement('li');
             releaseItem.textContent = `Год выпуска: ${auto.release}`;
             const garageItem = document.createElement('li');
+            garageItem.style.color = 'red';
             garageItem.textContent = `Номер гаража: ${auto.garageNumber}`;
             const serviceItem = document.createElement('li');
             serviceItem.textContent = `Служба: ${auto.service}`;
             const endItem = document.createElement('li');
             endItem.textContent = "***************************";
+            resultEl.classList.remove('result');
+            resultEl.classList.add('resultAfter');
             resultList.append(modelItem, gosItem, invItem, vinItem, releaseItem, garageItem, serviceItem, endItem);
         }
     });
