@@ -6,6 +6,7 @@
 
 body {
     scroll-behavior: smooth;
+    background-image: url('./image/tekstura-texture-poverhnost-3416.webp');
 }
 
 img {
@@ -19,8 +20,7 @@ img {
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    /* background-color:rgb(114, 146, 114) ; */
-    background-image: url('./image/tekstura-texture-poverhnost-3416.webp');
+    background-color:rgb(114, 146, 114) ;
 }
 
 .backGr {
