@@ -128,6 +128,39 @@ footer{
     background-color: darkgray;
 }
 
+.reklama {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.reklama__image {
+    width: 800px;
+    height: 400px;
+    margin-left: -20px;
+}
+.price {
+    color: red;
+    font-size: 30px;
+    font-weight: bolder;
+    margin-left: -120px;
+    margin-top: 300px;
+}
+
+.href {
+    width: 100px;
+    height: 100px;
+    margin-left: -120px;
+    margin-top: 125px;
+    margin-top: 63px;
+    background-image: url('./image/Telegram.webp');
+    animation: rotate 2s linear infinite;
+    }
+
+    @keyframes rotate {
+        from {transform: scale(1.5);}
+        to {transform: rotate(50deg);}
+    }
 @media (max-width: 767px){
     .container {
         max-width: 375px;
@@ -147,5 +180,12 @@ footer{
     }
     .selected {
         height: 60px;
+    }
+    .reklama__image {
+        width: 740px;
+    }
+
+    .price {
+        margin-left: -70px;
     }
 }

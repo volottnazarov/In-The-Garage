@@ -116,7 +116,7 @@
         invNumber: "0356",
         vinNumber: "XTA219040R1067881",
         release: 2024,
-        garageNumber: 0,
+        garageNumber: 10,
         service: "АП ГЗ"
     },
     {
@@ -185,7 +185,7 @@
         invNumber: "0226",
         vinNumber: "XTA219040R0984108",
         release: 2023,
-        garageNumber: 2723,
+        garageNumber: 23,
         service: "АП ГЗ"
     },
     {
@@ -206,16 +206,6 @@
         vinNumber: "XTA219040R1068140",
         release: 2024,
         garageNumber: 16,
-        service: "АП ГЗ"
-    },
-    {
-        id: 22,
-        model: "Гранта-219040",
-        gosNumber: 6097,
-        invNumber: "0313",
-        vinNumber: "XTA219040R1068186",
-        release: 2024,
-        garageNumber: 20,
         service: "АП ГЗ"
     },
     {
@@ -256,6 +246,16 @@
         vinNumber: "XTA219040R0984123",
         release: 2023,
         garageNumber: 34,
+        service: "АП ГЗ"
+    },
+    {
+        id: 27,
+        model: "Гранта-219040",
+        gosNumber: 6097,
+        invNumber: "0313",
+        vinNumber: "XTA219040R1068186",
+        release: 2024,
+        garageNumber: 30,
         service: "АП ГЗ"
     }
 ]

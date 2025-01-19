@@ -1,8 +1,18 @@
 ﻿const selectEl = document.querySelector(".mySelect");
 const inputElem = document.querySelector('.input');
+let resultList = document.getElementById('resultList');
+let resultEl = document.querySelector('.result');
+resultList.innerHTML = "";
+
+selectEl.addEventListener('mouseover', () => {
+    if (!sessionStorage.getItem('reload')) {
+        sessionStorage.setItem('reload', 1);
+        window.location.reload(true);
+    }
+})
 
 selectEl.addEventListener("change", () => {
-    const valueEl = selectEl.value;
+    let valueEl = selectEl.value;
     switch (valueEl) {
         case "gosNumber":
             let inputEl = document.querySelector('.inputPlace');
@@ -12,8 +22,11 @@ selectEl.addEventListener("change", () => {
             inputEl.placeholder = "Например: 5810";
             inputEl.style.display = 'block';
             inputButtonEl.style.display = 'block';
+
             inputButtonEl.onclick = function() {
+                resultList.innerHTML = "";
                 param = inputEl.value;
+                console.log(param, '  первое значение');
                 if(param.length === 4 || param === ""){
                     viewResult(param, gosNumber);
                 }else{
@@ -30,6 +43,7 @@ selectEl.addEventListener("change", () => {
             inputInvEl.style.display = 'block';
             inputButtonInvEl.style.display = 'block';
             inputButtonInvEl.onclick = function() {
+                resultList.innerHTML = "";
                 paramInv = inputInvEl.value;
                 if(paramInv.length === 5 || paramInv.length === 4 || paramInv === ""){
                     viewResult(paramInv, invNumber);
@@ -47,6 +61,7 @@ selectEl.addEventListener("change", () => {
             inputVinEl.style.display = 'block';
             inputButtonVinEl.style.display = 'block';
             inputButtonVinEl.onclick = function() {
+                resultList.innerHTML = "";
                 paramVin = inputVinEl.value;
                 if(paramVin.length === 17 || paramVin === ""){
                     viewResult(paramVin, vinNumber);
@@ -64,6 +79,7 @@ selectEl.addEventListener("change", () => {
             inputGarageEl.style.display = 'block';
             inputButtonGarageEl.style.display = 'block';
             inputButtonGarageEl.onclick = function() {
+                resultList.innerHTML = "";
                 paramGarage = inputGarageEl.value;
                 if(paramGarage <= 41 || paramGarage == "ангар"){
                     viewResult(paramGarage, garageNumber);
@@ -75,12 +91,11 @@ selectEl.addEventListener("change", () => {
         default:
             break;
     }
+    valueEl.value = '';
 });
 
 function viewResult(params, category) {
-    const resultList = document.getElementById('resultList');
-    const resultEl = document.querySelector('.result');
-    resultList.innerHTML = "";
+
 
     garageData.forEach((auto) => {
         console.log(params, auto[category]);
