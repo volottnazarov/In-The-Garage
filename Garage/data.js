@@ -205,7 +205,7 @@
         invNumber: "0306",
         vinNumber: "XTA219040R1068140",
         release: 2024,
-        garageNumber: 16,
+        garageNumber: 20,
         service: "АП ГЗ"
     },
     {
