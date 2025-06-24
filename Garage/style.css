@@ -182,6 +182,7 @@ footer{
         height: 60px;
     }
     .reklama__image {
+        display: none;  /* убрать рекламу*/
         width: 740px;
     }
 
